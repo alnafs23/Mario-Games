@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=princess
+comment1.params=
+comment1.target=princess()
+comment2.params=
+comment2.target=void\ act()
+comment3.params=mario
+comment3.target=void\ startFollowing(mario)
+comment4.params=
+comment4.target=void\ followMario()
+numComments=5

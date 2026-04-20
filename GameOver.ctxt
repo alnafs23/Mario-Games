@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=GameOver
+comment0.text=\r\n\ Aktor\ ini\ menampilkan\ animasi\ "Game\ Over"\ saat\ dipanggil.\r\n\ Dia\ juga\ mendengarkan\ 'spasi'\ untuk\ restart.\r\n
+comment1.params=
+comment1.target=GameOver()
+comment2.params=world
+comment2.target=void\ addedToWorld(greenfoot.World)
+comment2.text=\r\n\ Metode\ ini\ dipanggil\ sekali\ saat\ Aktor\ ditambahkan\ ke\ dunia.\r\n
+comment3.params=
+comment3.target=void\ act()
+comment4.params=
+comment4.target=void\ animate()
+comment4.text=\r\n\ Helper\ method\ untuk\ menjalankan\ animasi\r\n
+numComments=5

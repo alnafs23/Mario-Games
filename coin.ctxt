@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=coin
+comment1.params=
+comment1.target=coin()
+comment1.text=\r\n\ Ini\ adalah\ Konstruktor.\ \r\n\ Kode\ ini\ berjalan\ SAAT\ koin\ pertama\ kali\ dibuat.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Method\ act()\ akan\ mengurus\ fisika\ koin\r\n
+comment3.params=
+comment3.target=void\ applyGravityAndVerticalMovement()
+comment3.text=\r\n\ Method\ BARU\:\ Versi\ sederhana\ dari\ fisika\ Mario\r\n\ Ini\ membuat\ koin\ jatuh\ dan\ mendarat.\r\n
+numComments=4
