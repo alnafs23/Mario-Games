@@ -150,6 +150,6 @@ Proyek ini bersifat open source dan bebas digunakan untuk keperluan pembelajaran
 
 <div align="center">
 
-Dibuat dengan 💛 menggunakan Java & Greenfoot — *"It's-a me, Mario!"*
+Dibuat dengan 💙 menggunakan Java & Greenfoot — *"It's-a me, Mario!"*
 
 </div>
