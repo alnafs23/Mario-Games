@@ -1,15 +1,15 @@
  <div align="center">
 
-# 🍄 Mario Games — Greenfoot Edition
+# 🍄 Mario Games
 
-### *Petualangan Klasik Mario, Dibangun Ulang dengan Java & Greenfoot*
+### *Melompat, Berlari, dan Menyelamatkan Sang Putri*
 
-Sebuah permainan platformer bergaya **Super Mario Bros**, dikembangkan menggunakan Java di atas *framework* **Greenfoot**. Lompat, kumpulkan koin, hindari musuh, dan capai akhir level untuk menyelamatkan sang putri!
+Sebuah platformer 2D bergaya retro yang dibangun murni menggunakan **Java** di atas framework **Greenfoot**, menghadirkan kembali sensasi berlari, melompat, dan mengumpulkan koin ala game klasik era 8-bit.
 
-![Java](https://img.shields.io/badge/Java-Language-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Greenfoot](https://img.shields.io/badge/Framework-Greenfoot-4E9A06?style=flat-square)
-![Genre](https://img.shields.io/badge/Genre-2D%20Platformer-blueviolet?style=flat-square)
-![License](https://img.shields.io/badge/License-Open%20Source-green?style=flat-square)
+![Java](https://img.shields.io/badge/Java-8%2B-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Greenfoot](https://img.shields.io/badge/Greenfoot-Engine-4C9A2A?style=flat-square&logo=java&logoColor=white)
+![Genre](https://img.shields.io/badge/Genre-Platformer-6C63FF?style=flat-square)
+![License](https://img.shields.io/badge/License-Open%20Source-3DDC84?style=flat-square)
 
 </div>
 
@@ -17,118 +17,139 @@ Sebuah permainan platformer bergaya **Super Mario Bros**, dikembangkan menggunak
 
 ## 💡 Tentang Proyek
 
-> *"Setiap loncatan membawamu lebih dekat ke istana."*
+> *"Satu lompatan, satu koin, satu langkah lebih dekat kepada Sang Putri."*
 
-**Mario Games** adalah permainan platformer 2D sederhana bergaya *Super Mario Bros*, dibangun sebagai proyek pembelajaran menggunakan Java dan Greenfoot. Pemain mengendalikan karakter Mario yang berlari, melompat, menghindari musuh seperti Goomba dan Bowser, mengumpulkan koin, hingga akhirnya bertemu dengan Putri di akhir level.
+Jauh sebelum grafis 3D dan physics engine canggih ada, satu formula sederhana sudah cukup untuk membuat jutaan orang jatuh cinta: **lari, lompat, kumpulkan koin, kalahkan musuh, selamatkan sang putri**. **Mario Games** menghidupkan kembali formula legendaris itu — lengkap dengan dunia yang bergulir mulus (*side-scrolling*), musuh yang berpatroli, blok misteri yang menyimpan koin, hingga Bowser yang menghadang di jalan menuju Puri.
 
-## ✨ Fitur Utama
+Lebih dari sekadar game, proyek ini adalah etalase pemrograman berorientasi objek (OOP) dalam praktik nyata — setiap elemen dunia (Goomba, pipa, awan, bukit, blok) adalah `Actor` mandiri dengan perilaku dan animasinya sendiri, semua diatur rapi oleh satu `World` utama yang menangani scrolling, waktu, skor, dan nyawa secara *real-time*.
 
-- 🏠 **Halaman Utama (Homepage)** — menu awal dengan tombol *Play* dan musik latar
-- 🕹️ **Kontrol Mario** — gerak kiri/kanan dan lompat menggunakan keyboard
-- 🌍 **Dunia yang Bisa Di-*scroll*** — level sepanjang 6500px dengan kamera mengikuti pergerakan Mario
-- 🪙 **Sistem Koin & Skor** — kumpulkan koin untuk menambah skor
-- 👾 **Musuh Interaktif** — hadapi Goomba dan Bowser yang dapat mengalahkan Mario
-- 🧱 **Elemen Level Klasik** — pipa, blok, tangga bata, bukit, awan, dan semak khas dunia Mario
-- 🚩 **Flagpole & Castle** — tanda akhir level untuk menyelesaikan permainan
-- 👸 **Karakter Putri** — tujuan akhir petualangan Mario
-- 💀 **Layar Game Over Animatif** — animasi Game Over dengan opsi restart (tekan *Space*/*Enter*)
-- 🎵 **Musik & Efek Suara** — musik latar dan efek suara untuk lompat, koin, tabrakan, dan lainnya
-- 🚪 **Tombol Keluar (Exit)** — kembali ke halaman utama kapan saja
+| 🎯 Tujuan | 🕹️ Pengalaman yang Dihadirkan |
+|---|---|
+| Merekonstruksi mekanik platformer klasik era 8-bit | Sensasi nostalgia yang akrab di tangan siapa pun |
+| Menerapkan physics sederhana (gravitasi & momentum lompatan) | Pergerakan karakter yang terasa ringan namun presisi |
+| Membangun dunia scrolling dinamis sepanjang 6.500px | Level luas yang tetap terasa ringan dan mulus dimainkan |
+| Merancang arsitektur berbasis Actor (OOP) | Kode yang rapi, modular, dan mudah dikembangkan lebih jauh |
+
+---
+
+## 🌟 Fitur Utama
+
+- 🎮 **Kendali Gesit** — gerak kiri/kanan dengan tombol panah, melompat seringan menekan `Space`
+- 🗺️ **Dunia yang Hidup dan Bergulir** — kamera mengikuti setiap langkah Mario di sepanjang level raksasa
+- 👾 **Barisan Musuh** — Goomba yang setia berpatroli, hingga Bowser sebagai penjaga akhir dengan gerak khasnya
+- ❓ **Blok Misteri (`tanya`)** — ketuk dari bawah, dan koin pun berhamburan untuk dikumpulkan
+- 🧱 **Dunia Kaya Detail** — bata, balok, pipa hijau ikonik, bukit, semak, dan awan yang menghiasi latar
+- 🚩 **Garis Akhir Penuh Kemenangan** — sentuh *flagpole* di ujung level untuk memicu animasi juara
+- 👸 **Sang Putri Menanti** — muncul dan mengikuti langkah Mario begitu level berhasil ditaklukkan
+- ❤️ **Taruhan Nyawa** — 3 kesempatan hidup, berkurang setiap kali tersentuh musuh atau terjatuh ke jurang
+- 📊 **HUD Sigap** — skor, jumlah koin, sisa waktu, dan nyawa tersaji langsung tanpa jeda
+- 💀 **Game Over yang Dramatis** — animasi frame-by-frame saat nyawa habis, dengan opsi coba lagi secepatnya
+- 🖥️ **Gerbang Pembuka** — halaman *Homepage* dengan tombol Play & Exit, disambut musik latar penuh nostalgia
+- 🔊 **Panggung Suara** — musik latar, efek lompat, dentingan koin, ledakan, hingga tema kemenangan
+
+---
 
 ## 🛠️ Tech Stack
 
-<div align="center">
-
 | Layer | Teknologi |
-|:---:|:---:|
-| **Bahasa** | Java |
-| **Framework Game** | Greenfoot |
-| **Grafis** | Sprite 2D (PNG/GIF) |
-| **Audio** | WAV & MP3 (musik latar & efek suara) |
+|---|---|
+| Bahasa | Java |
+| Engine / Framework | Greenfoot |
+| Arsitektur | Object-Oriented (kelas `Actor` & `World`) |
+| Audio | `GreenfootSound` (WAV & MP3) |
+| Grafis | `GreenfootImage` (PNG, GIF, JPG) dengan animasi frame manual |
 
-</div>
+---
 
 ## 📦 Instalasi & Menjalankan
 
-Karena proyek ini dibangun di atas **Greenfoot**, cara menjalankannya sedikit berbeda dari proyek Java biasa:
-
 ```bash
 # 1. Clone repository
-git clone https://github.com/alnafs23/Mario-Games.git
+git clone https://github.com/<username>/Mario-Games.git
 cd Mario-Games
+
+# 2. Buka dengan Greenfoot
+# Unduh Greenfoot IDE terlebih dahulu di https://www.greenfoot.org
+# Lalu jalankan Greenfoot, pilih "Open Project", dan arahkan ke folder ini
 ```
 
-**2. Unduh dan instal Greenfoot**
-Unduh IDE Greenfoot secara gratis di situs resminya: [greenfoot.org](https://www.greenfoot.org/)
+> ⚠️ Pastikan seluruh berkas aset (`*.png`, `*.gif`, `*.wav`, `*.mp3`) tetap berada dalam satu direktori bersama berkas `.java`, agar Greenfoot dapat memuat gambar dan suara dengan sempurna.
 
-**3. Buka proyek**
-- Jalankan Greenfoot
-- Pilih **Open Project** dan arahkan ke folder `Mario-Games` (berisi file `project.greenfoot`)
+---
 
-**4. Jalankan permainan**
-- Klik tombol **Run** / **Act** pada scenario **Homepage**
-- Klik tombol **Play** pada layar utama untuk memulai permainan
+## 🖥️ Cara Bermain
 
-## 🎮 Cara Bermain
+Mulai dari klik pertama hingga bendera kemenangan berkibar:
+
+1. Buka proyek di Greenfoot, lalu klik **Compile**
+2. Klik **Run** — halaman *Homepage* akan menyambut dengan musik latar
+3. Klik tombol **Play** untuk melangkah masuk ke dunia Mario
+4. Gunakan `←` `→` untuk berlari, `Space` atau `↑` untuk melompat
+5. Ketuk Blok Misteri dari bawah untuk memanen koin
+6. Injak musuh dari atas untuk mengalahkannya — hindari benturan langsung dari samping
+7. Raih *flagpole* di ujung level untuk merayakan kemenangan, atau klik **Exit** kapan saja untuk kembali ke menu utama
+
+### 🕹️ Kontrol Permainan
 
 | Tombol | Aksi |
-|:---:|---|
-| ⬅️ / ➡️ | Gerakkan Mario ke kiri/kanan |
-| `Space` | Melompat |
-| 🖱️ Klik | Interaksi dengan tombol menu (*Play*, *Exit*) |
+|---|---|
+| `←` / `→` | Berlari ke kiri / kanan |
+| `Space` atau `↑` | Melompat |
+| Klik Mouse | Menekan tombol menu (Play / Exit) |
 
-**Tujuan permainan:**
-1. Kumpulkan koin sebanyak mungkin sepanjang level
-2. Hindari atau kalahkan musuh seperti Goomba dan Bowser
-3. Capai *flagpole* dan istana di akhir level
-4. Temukan Putri untuk menyelesaikan petualangan
-5. Jika kalah, tekan `Space` atau `Enter` pada layar Game Over untuk kembali ke menu utama
+---
 
 ## 📁 Struktur Proyek
 
 ```
-Mario-Games/
-├── MarioWorld.java        # Dunia utama permainan (scrolling, level, musik)
-├── mario.java              # Logika karakter utama (gerak, skor, koin)
-├── Homepage.java           # Halaman menu utama
-├── Play.java / Exit.java   # Tombol navigasi (mulai/keluar)
-├── GameOver.java           # Layar animasi Game Over
-├── HUD.java                # Tampilan skor & informasi pemain
-├── Goomba.java / bowser.java  # Musuh dalam permainan
-├── coin.java / flag.java / flagpole.java  # Item & elemen level
-├── princess.java           # Karakter tujuan akhir
-├── block.java / brick.java / pipa*.java / castle.java  # Elemen dunia
-├── *.png / *.gif           # Aset sprite & gambar
-├── *.wav / *.mp3           # Musik & efek suara
-├── project.greenfoot       # File konfigurasi proyek Greenfoot
-└── README.md               # Dokumentasi proyek
+Mario-Games-main/
+├── Homepage.java               # Menu utama & musik pembuka
+├── Play.java / Exit.java       # Tombol navigasi menu
+├── MarioWorld.java             # Dunia utama: scrolling, HUD, skor, waktu
+├── mario.java                  # Logika karakter utama (gerak, lompat, nyawa, animasi)
+├── Goomba.java / bowser.java   # Musuh: patroli & pola serangan
+├── coin.java / tanya.java      # Koin & Blok Misteri
+├── flag.java / flagpole.java / castle.java   # Elemen akhir level
+├── princess.java                # Karakter yang diselamatkan
+├── HUD.java                     # Tampilan skor, koin, waktu, nyawa
+├── GameOver.java                # Layar animasi kalah
+├── block.java / brick.java / pipa*.java / Ground.java   # Elemen level & tabrakan
+├── hill*.java / bush*.java / cloud*.java     # Dekorasi latar (parallax sederhana)
+├── *.png / *.gif / *.jpg        # Aset sprite & latar
+├── *.wav / *.mp3                # Efek suara & musik latar
+└── README.TXT                   # Catatan proyek asli (dokumentasi standar Greenfoot)
 ```
+
+---
 
 ## 🗺️ Rencana Pengembangan
 
-- [ ] Penambahan level baru dengan tingkat kesulitan berbeda
-- [ ] Sistem power-up (misalnya jamur, bunga api)
-- [ ] Leaderboard skor tertinggi
-- [ ] Efek transisi antar level yang lebih halus
+- [ ] Multi-level dengan sistem transisi antar dunia
+- [ ] Power-up (Mushroom, Fire Flower) untuk transformasi Mario
+- [ ] Leaderboard skor tertinggi berbasis penyimpanan lokal
+- [ ] Mode multiplayer lokal (2 pemain bergantian atau berdampingan)
+- [ ] Ekspor build mandiri (`.jar`) agar tak lagi bergantung pada Greenfoot IDE
+
+---
 
 ## 🤝 Kontribusi
 
 Kontribusi sangat terbuka bagi siapa saja yang ingin membantu mengembangkan proyek ini:
 
-1. *Fork* repository ini
+1. Fork repository ini
 2. Buat branch fitur baru (`git checkout -b fitur-baru`)
-3. *Commit* perubahan (`git commit -m 'Menambahkan fitur baru'`)
-4. *Push* ke branch (`git push origin fitur-baru`)
-5. Buka *Pull Request*
-
-## 📄 Lisensi
-
-Proyek ini bersifat **open source** dan dibuat untuk keperluan pembelajaran. Aset grafis dan audio bertema Mario digunakan untuk tujuan edukasi non-komersial.
+3. Commit perubahan (`git commit -m 'Menambahkan fitur baru'`)
+4. Push ke branch (`git push origin fitur-baru`)
+5. Buka Pull Request
 
 ---
 
+## 📄 Lisensi
+
+Proyek ini bersifat open source dan bebas digunakan untuk keperluan pembelajaran maupun pengembangan lebih lanjut.
+
 <div align="center">
 
-**Dibuat dengan 💙 oleh [alnafs23](https://github.com/alnafs23)**
+Dibuat dengan 💛 menggunakan Java & Greenfoot — *"It's-a me, Mario!"*
 
 </div>
