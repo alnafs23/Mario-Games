@@ -19,9 +19,9 @@ Sebuah platformer 2D bergaya retro yang dibangun murni menggunakan **Java** di a
 
 > *"Satu lompatan, satu koin, satu langkah lebih dekat kepada Sang Putri."*
 
-Jauh sebelum grafis 3D dan physics engine canggih ada, satu formula sederhana sudah cukup untuk membuat jutaan orang jatuh cinta: **lari, lompat, kumpulkan koin, kalahkan musuh, selamatkan sang putri**. **Mario Games** menghidupkan kembali formula legendaris itu — lengkap dengan dunia yang bergulir mulus (*side-scrolling*), musuh yang berpatroli, blok misteri yang menyimpan koin, hingga Bowser yang menghadang di jalan menuju Puri.
+Jauh sebelum grafis 3D dan physics engine canggih ada, satu formula sederhana sudah cukup untuk membuat jutaan orang jatuh cinta: **lari, lompat, kumpulkan koin, kalahkan musuh, selamatkan sang putri**. **Mario Games** menghidupkan kembali formula legendaris itu lengkap dengan dunia yang bergulir mulus (*side-scrolling*), musuh yang berpatroli, blok misteri yang menyimpan koin, hingga Bowser yang menghadang di jalan menuju Puri.
 
-Lebih dari sekadar game, proyek ini adalah etalase pemrograman berorientasi objek (OOP) dalam praktik nyata — setiap elemen dunia (Goomba, pipa, awan, bukit, blok) adalah `Actor` mandiri dengan perilaku dan animasinya sendiri, semua diatur rapi oleh satu `World` utama yang menangani scrolling, waktu, skor, dan nyawa secara *real-time*.
+Lebih dari sekadar game, proyek ini adalah etalase pemrograman berorientasi objek (OOP) dalam praktik nyata setiap elemen dunia (Goomba, pipa, awan, bukit, blok) adalah `Actor` mandiri dengan perilaku dan animasinya sendiri, semua diatur rapi oleh satu `World` utama yang menangani scrolling, waktu, skor, dan nyawa secara *real-time*.
 
 | 🎯 Tujuan | 🕹️ Pengalaman yang Dihadirkan |
 |---|---|
